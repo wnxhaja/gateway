@@ -35,7 +35,7 @@ app.use('/tests', new testService())
 app.use('/todos', app.service('microservice.todos'));
 
 //channel ning dapita
-app.publish(data => app.chnnel('everybody'));
+app.publish(data => app.channel('everybody'));
 app.on('connection', connection => app.channel('everybody').join(connection));
 
 // instantiate server
