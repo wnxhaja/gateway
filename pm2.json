@@ -1,0 +1,16 @@
+[
+  {
+    "script": "gateway_1.js",
+    "name": "gateway_1",
+    "exec_mode": "fork",
+    "watch":true,
+    "max_memory_restart": "150M"
+  },
+  {
+    "script": "gateway_2.js",
+    "name": "gateway_2",
+    "exec_mode": "fork",
+    "watch":true,
+    "max_memory_restart": "150M"
+  },
+]
